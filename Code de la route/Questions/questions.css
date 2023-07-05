@@ -1,0 +1,101 @@
+#top{
+	height: 50 px;
+	background-color: green;
+	font-size: 50px;
+	text-decoration: underline;
+	color: white;
+	font-family: Comic Sans MS;
+	}
+	
+#repA{
+	width : 200px;
+	height : 35px;
+	color : black;
+	background-color : #EEEEEE;
+	border : solid black;
+	border-radius:1px;
+	display:inline-block;
+	margin: 20px;
+}
+#repB{
+	width : 200px;
+	height : 35px;
+	color : black;
+	background-color : #EEEEEE;
+	border : solid black;
+	border-radius:1px;
+	display:inline-block;
+	margin: 20px;
+}
+#repC{
+	width : 200px;
+	height : 35px;
+	color : black;
+	background-color : #EEEEEE;
+	border : solid black;
+	border-radius:1px;
+	display:inline-block;
+	margin: 20px;
+}
+.question{
+	width : 1420px;
+}
+#Q{
+	width : 1420px;
+	border : solid black;
+	border-radius:1px;
+}
+#question{
+	background-color : #EEEEEE;
+	border : solid black;
+	border-radius:1px;
+	font-size: 20px;
+	margin: 20px;
+	text-align:center;
+}
+#Chrono{
+	width : 200px;
+	height : 30px;
+	color : black;
+	background-color : #EEEEEE;
+	border : solid black;
+	border-radius:1px;
+
+}
+#resultats{
+	width : 200px;
+	height : 30px;
+	color : black;
+	background-color : #EEEEEE;
+	border : solid white;
+	border-radius:1px;
+	display: none;
+	margin-top:200px;
+}
+input[type=Submit]{
+	color: #0B3861;
+	font-family:Impact, fantasy;
+	font-size: 35px;
+	margin-top:200px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 00px;
+	border:none;
+	padding:6px 0 6px 0;
+	border-radius:8px;
+	background:white;
+	box-shadow:5px 5px 15px #0B3861;
+	display: none;
+}
+#all2{
+	width : 1405px;
+	height : 710px;
+	color : red;
+	background-color : black;
+	border : solid white;
+	border-radius:1px;
+	display: none;
+}
+#h1 {
+	color: red;
+}
