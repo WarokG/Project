@@ -1,0 +1,213 @@
+@font-face {
+    font-family: 'poppins';
+    src: url('../fonts/Poppins-Medium.ttf'); 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+body{
+    color: #24252A;
+    background-color: white;
+    width: 100%;
+}
+
+
+/* ENTETE LOGO/NAVIGATION */
+header{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+} 
+
+.logo-container{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+/*LOGO*/
+.logo{
+    width: 50px;
+}
+
+.logo-text{
+    margin:5px
+}
+/* TEXT NAV */
+nav{
+    flex:1 1 250px;
+}
+
+.lists{
+    list-style:none;
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+
+.lists>li{
+    flex:1;
+    height: auto; 
+    padding: 5px;
+    text-align: center;
+}
+
+.list:hover{
+    color: #00e676;
+}
+
+/* DROPDOWN */
+.list, .list-dropdown{
+    color: #24252A;
+    text-decoration: none;
+}
+
+.list-dropdown{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    pointer-events: all;
+}
+
+.list-dropdown:hover{
+    color: #00e676;
+}
+
+.fleche{
+    width: 20px;
+    position: absolute;
+    margin-left: -10px;
+    z-index:-1;
+}
+
+.dropdown{
+    list-style: none;
+    position: absolute;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-10px);
+    transition: all 0.4s ease;
+}
+
+.dropdown li{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-15px);
+    margin-left: 15px;
+}
+
+.dropdown li:hover{
+    transform: translateX(0);
+    transition: all 0.2s ease;
+}
+
+.sous-list{
+    text-decoration: none;
+    color: #24252A;
+}
+
+.list-dropdown:focus + .dropdown{
+    opacity: 1;
+    pointer-events: all;
+    transform: translateY(0);
+}
+
+.dropdown li:hover{
+    opacity: 1;
+    pointer-events: all;
+}
+
+/* SEPARATION VERTE */
+.separation{
+    background: linear-gradient(0.25turn, #00e676, #07da70);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.texte{
+    flex: 1;
+    margin: 0 40% 5% 15%;
+    padding: 55px 0 0 0;
+    color: white;
+}
+
+.texte h4{
+    font-size: 6vh;
+    font-weight: bold;
+    margin: 0 0 15px 25px;
+}
+
+.texte p{
+    padding: 5px 0;
+    font-size: 3vh;
+}
+
+.auto{
+    flex:1;
+    z-index:15;
+    margin: 0 20%;
+    width: 100vh;
+}
+
+/* LISTE ARTICLES */
+.AvantG{
+    margin: 25vh 15% 20vh 15%;
+}
+
+.AvantG h4{
+    font-size:24px;
+    font-weight: bold;
+    margin: 0 0 15px 25px;
+}
+
+.arts{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.art1,.art2,.art3{
+    flex:1;
+    margin: 0 15px;
+    height: 150px;
+}
+
+.art1 img{
+    width: 100%;
+}
+
+.art2 img{
+    width: 100%;
+}
+
+.art3 img{
+    width: 100%;
+}
+
+
+
+
